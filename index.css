@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Gotic;
+    src: url('font/GOTHIC.TTF'), url('font/GOTHICB.TTF'), url('font/GOTHICBI.TTF'), url('font/GOTHICI.TTF');
+}
+
+body {
+    font-family: Gotic, serif;
+}
+
+
+
+.header {
+    color: rgb(153,115,162);
+}
+.header-img {
+    width: 250px;
+}
+.header-heart {
+    margin-top: -50px;
+}
+.header-name {
+    margin-top: -90px;
+    width: 350px;
+}
+
+
+
+.message-1 {
+    background-color: rgb(252,204,78);
+}
+.message-img {
+    width: 50px;
+    margin-top: 10px;
+}
+.message-img-2 {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    transform: rotate(180deg);
+}
+.message-text {
+    font-size: 24px;
+    color: #FFF;
+}
+
+
+
+.info {
+    background-color: rgb(237,195,207);
+}
+.info-img {
+    width: 200px;
+    margin: 10px 0;
+}
+.info-link {
+    cursor: pointer;
+    background-color: rgb(66,67,76);
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+
+    transition: all 0.5s;
+}
+.info-link:hover {
+    text-decoration: none;
+    background-color: #FFF;
+    color: rgb(66,67,76);
+}
+
+
+
+.message-2 {
+    background-color: rgb(252,204,78);
+}
+.footer-text {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer-confirm {
+    color: rgb(66,67,76);
+}
+.footer-bear {
+    height: 300px;
+}
+
+
+
+
+
+/* MEDIAQUERY */
+@media (max-width: 767px) {
+    .message-text {
+        font-size: 20px;
+    }
+    .info-img-map {
+        margin-bottom: 5px;
+    }
+    .footer-bear {
+        height: auto;
+    }
+}
+
+@media (max-width: 370px) {
+    .header-name {
+        width: 250px;
+    }
+    .message-text {
+        font-size: 16px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+    .footer-confirm {
+        font-size: 12px;
+    }
+}
+
+
+
+/* WIDTH MÍNIMO 265 */
